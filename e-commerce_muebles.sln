@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-commerce_muebles", "e-commerce_muebles.csproj", "{F04C4937-A9EA-4211-82D9-CBF139621993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "e-commerce_muebles.Web", "e-commerce_muebles.Web.csproj", "{F04C4937-A9EA-4211-82D9-CBF139621993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-commerce_muebles.Managers", "e-commerce_muebles.Managers\e-commerce_muebles.Managers.csproj", "{340D8237-2A08-4687-B0B7-F15215A59387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F04C4937-A9EA-4211-82D9-CBF139621993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04C4937-A9EA-4211-82D9-CBF139621993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04C4937-A9EA-4211-82D9-CBF139621993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340D8237-2A08-4687-B0B7-F15215A59387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340D8237-2A08-4687-B0B7-F15215A59387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340D8237-2A08-4687-B0B7-F15215A59387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340D8237-2A08-4687-B0B7-F15215A59387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
