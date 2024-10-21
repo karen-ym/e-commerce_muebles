@@ -8,6 +8,7 @@ namespace e_commerce_muebles.Managers.Entidades
 {
     public class Categoria
     {
+        public int categoria_id {  get; set; }
         public string categoria { get; set; }
     }
 }

@@ -13,5 +13,7 @@ namespace e_commerce_muebles.Managers.Entidades
         public string descripcion { get; set; }
         public double precio { get; set; }
         public int stock { get; set; }
-    }
+        public int proveedor_id { get; set; }
+        public int categoria_id { get; set; }
+        }
 }
